@@ -1,0 +1,91 @@
+body{
+    background-color: aliceblue;
+}
+
+.container
+{
+    width: 1000px;
+    margin : 0 auto;
+    min-height: 800px;
+    background-color: white;
+    font-weight: bold;
+}
+
+table
+{
+    width: 100%;
+    text-align: center;
+}
+
+h1
+{
+    background-color: cornflowerblue;
+    padding: 18px 0;
+    color: white;
+    letter-spacing: 2px;
+    margin : 0;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+#add_book{
+    margin-top: 20px;
+    border: 1px solid chartreuse;
+    color:chartreuse;
+    background-color: white;
+    padding: 8px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 1000px;
+}
+
+#add_book:hover{
+    background-color: chartreuse;
+    color: white;
+    cursor: pointer;
+}
+
+td{
+    background-color: aliceblue;
+    width: 16.67%;
+    font-size: 20px;
+    padding: 8px 0;
+    color: cornflowerblue;
+}
+
+.mark_read_button, .remove_button{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    border: 1px solid red;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px 13px;
+}
+
+.mark_read_button{
+    color:green;
+    border: 1px solid green;
+}
+
+.mark_read_button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.remove_button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+td:hover{
+    background-color:cornflowerblue;
+    color: white;
+}
